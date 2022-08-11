@@ -1,0 +1,723 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700&display=swap');
+
+// font-family: 'Cormorant', serif;
+
+    // font-family: 'Open Sans', sans-serif;
+
+    // font-family: 'Playfair Display', serif;
+
+    $body_comn_bg:#F5F5F5;
+    // Header Area Variable
+    $header_bg_color:#fff;
+    $header_font_family:'Open Sans', sans-serif;
+    $header_font_size:13px;
+    $header_font_weight:700;
+    $header_line_height:50px;
+    $header_text_transform:uppercase;
+    $header_font_color:#2e4371;
+    $header_befor_after_bg:transparent;
+    $header_befor_after_bg_active:#2e4371;
+    $header_menu_dropdown_icon_color:#82848a;
+    $header_dropdown_font_color:#82848a;
+    $header_dropdown_font_weight:600;
+    $header_dropdown_font_size:13px;
+    $header_dropdown_letter_specing:0.75px;
+    $header_dropdown_font_family:'Open Sans', sans-serif;
+    $header_dropdown_font_text_transform:uppercase;
+    $header_dropdown_font_color_hover:#2e4371;
+    $header_dropdown_bg:#fff;
+    $header_area_burger_line_bg:#000;
+    $header_close_btn_color:#c3c3c3;
+    $header_close_btn_font_size:16px;
+    $header_responsive_border_bg:#c3c3c3;
+    $header_responsive_menulink_color:#c3c3c3;
+    
+
+    // Home page Variable
+    $home_area_h1_font_family:'Cormorant', serif;
+    $home_h1_font_weight:400;
+    $home_h1_font_size:86px;
+    $home_letter_specing:1px;
+    $home_h1_line_height:1.6;
+    $home_h1_colour:#fff;
+    $home_h1_texttransformation:capitalize;
+    $home_mid_border_bg:#fff;
+    $home_bg_after_color:#5553535c;
+
+    $home_order_bg:#fff;
+    $home_order_titel_h2_font_family:'Playfair Display', serif;
+    $home_order_titel_h2_font_size:64px;
+    $home_order_titel_h2_lineheight:1.5;
+    $home_order_titel_h2_font_weight:400;
+    $home_order_titel_span_font_style:italic;
+    $home_order_titel_h2_color:#191919;
+    $home_order_sub_text_1_font_family:'Playfair Display', serif;
+    $home_order_sub_text_1_font_size:28px;
+    $home_order_sub_text_1_font_weight:400;
+    $home_order_sub_text_1_lineheight:1.5;
+    $home_order_sub_text_1_color:rgb(0, 0, 0);
+    $home_order_sub_text_1_after_bg:#d2a270;
+    $home_order_sub_text_2_font_family:'Open Sans', sans-serif;
+    $home_order_sub_text_2_font_size:24px;
+    $home_order_sub_text_2_font_weight:700;
+    $home_order_sub_text_2_lineheight:1.5;
+    $home_order_sub_text_2_text_transform:uppercase;
+    $home_order_sub_text_2_color:#000;
+    $home_order_reserve_titel_top_border_bg:#00000033;
+    $home_order_reserve_titel_color:#202838;
+    $home_order_reserve_titel_font_family:'Playfair Display', serif;
+    $home_order_reserve_titel_font_size:36px;
+    $home_order_reserve_titel_font_weight:700;
+    $home_order_reserve_titel_lineheight:1.5;
+    $home_order_reserve_titel_text_transform:uppercase;
+    $home_order_re_box_titel_font_family:'Playfair Display', serif;
+    $home_order_re_box_titel_font_size:24px;
+    $home_order_re_box_titel_font_weight:400;
+    $home_order_re_box_titel_lineheight:1.5;
+    $home_order_re_box_titel_text_transform:uppercase;
+    $home_re_box_titel_copia:#7f2e2d;
+    $home_re_box_titel_tel_phn:rgba(46,67,113,.95);
+    $home_re_box_titel_deli_ver:#db733e;
+    $home_order_btn_font_family:'Open Sans', sans-serif;
+    $home_order_btn_font_size:22px;
+    $home_order_btn_font_color:#ffff;
+    $home_order_btn_background:rgba(20,28,45,.95);
+    $home_order_btn_border:rgba(20,28,45,.95);
+    $home_order_btn_font_weight:400;
+    $home_order_btn_text_transform:uppercase;
+    $home_more_or_btn_font_family:'Open Sans', sans-serif;
+    $home_more_or_btn_font_size:22px;
+    $home_more_or_btn_font_color:#ffff;
+    $home_more_or_btn_background:rgba(20,28,45,.95);
+    $home_more_or_btn_border:rgba(20,28,45,.95);
+    $home_more_or_btn_font_weight:400;
+    $home_more_or_btn_text_transform:uppercase;
+
+    $home_oerp_titel_h2_font_family:'Playfair Display', serif;
+    $home_oerp_titel_h2_font_size:35px;
+    $home_oerp_titel_h2_font_color:#7D2F2F;
+    $home_oerp_titel_h2_after_bg:#d2a270;
+    $home_oerp_titel_h2_font_weight:400;
+    $home_oerp_titel_h2_strong_font_size:44px;
+    $home_oerp_p_font_family:'Open Sans', sans-serif;
+    $home_oerp_p_font_size:38px;
+    $home_oerp_p_font_color:#000;
+    $home_oerp_p_font_weight:400;
+    $home_oerp_p_text_transform:capitalize;
+    $home_oerp_p_strong_font_size:32px;
+    $home_oerp_p_strong_font_style:italic;
+    $home_oerp_text_1_font_family:'Playfair Display', serif;
+    $home_oerp_text_1_font_size:22px;
+    $home_oerp_text_1_font_color:#000;
+    $home_oerp_text_1_font_weight:400;
+    $home_oerp_text_2_font_family:'Playfair Display', serif;
+    $home_oerp_text_2_font_size:20px;
+    $home_oerp_text_2_font_color:rgba(20,28,45,.95);
+    $home_oerp_text_2_font_weight:700;
+    $home_oerp_text_2_texttransform:uppercase;
+    $home_oerp_phots_font_family:'Playfair Display', serif;
+    $home_oerp_phots_font_size:32px;
+    $home_oerpphots_font_color:#7F2E2D;
+    $home_oerp_phots_font_weight:700;
+    $home_oerp_border_bottom_bg:#7F2E2D;
+    $home_oerp_phots_after_bg:#7F2E2D;
+    $home_oerp_phots_texttransform:uppercase;
+
+    $footer_bg_bottom:#30323B;
+    $footer_top_content_bg:#F9EAE3;
+    $footer_left_ctn_titel_h3_font_family:'Playfair Display', serif;
+    $footer_left_ctn_titel_h3_font_size:36px;
+    $footer_left_ctn_titel_h3_font_lineheight:1.5;
+    $footer_left_ctn_titel_h3_font_weight:700;
+    $footer_left_ctn_titel_h3_font_color:#7F2E2D;
+    $footer_left_ctn_titel_h3_font_after:#7F2E2D;
+    $footer_left_ctn_titel_h3_text_transform:capitalize;
+    $footer_fo_te_1_font_family:'Playfair Display', serif;
+    $footer_fo_te_1_font_size:16px;
+    $footer_fo_te_1_font_lineheight:1.5;
+    $footer_fo_te_1_font_weight:700;
+    $footer_fo_te_1_font_color:#000000;
+    $footer_fo_te_1_text_transform:uppercase;
+    $footer_fo_te_2_font_family:'Playfair Display', serif;
+    $footer_fo_te_2_font_size:16px;
+    $footer_fo_te_2_font_lineheight:1.5;
+    $footer_fo_te_2_font_weight:400;
+    $footer_fo_te_2_font_color:#000000;
+    $footer_fo_sub_titel_2_font_family:'Playfair Display', serif;
+    $footer_fo_sub_titel_2_font_size:16px;
+    $footer_fo_sub_titel_2_font_lineheight:1.5;
+    $footer_fo_sub_titel_2_font_weight:700;
+    $footer_fo_sub_titel_2_font_color:#7F2E2D;
+    $footer_fo_sub_titel_text_transform:uppercase;
+    $footer_ph_num_font_family:'Playfair Display', serif;
+    $footer_ph_num_font_size:16px;
+    $footer_ph_num_font_lineheight:1.5;
+    $footer_ph_num_font_weight:700;
+    $footer_ph_num_font_color:#000000;
+    $footer_ph_num_text_transform:capitalize;
+    $footer_em_num_font_family:'Playfair Display', serif;
+    $footer_em_num_font_size:16px;
+    $footer_em_num_font_lineheight:1.5;
+    $footer_em_num_font_weight:700;
+    $footer_em_num_font_color:#000000;
+    $footer_em_adress_box_a_font_family:'Playfair Display', serif;
+    $footer_em_adress_box_a_font_size:23px;
+    $footer_em_adress_box_a_font_lineheight:1.5;
+    $footer_em_adress_box_a_font_weight:600;
+    $footer_em_adress_box_a_font_color:#000000;
+    $footer_em_adress_box_after_bg:rgba(0,0,0,.2);
+    $footer_adress_box_border_botom_bg:rgba(0,0,0,.2);
+    $footer_left_ctn_subtitel_font_family:'Open Sans', sans-serif;
+    $footer_left_ctn_subtitel_font_size:26px;
+    $footer_left_ctn_subtitel_font_lineheight:1.5;
+    $footer_left_ctn_subtitel_font_weight:600;
+    $footer_left_ctn_subtitel_font_color:#191919;
+    $footer_left_ctn_subtitel__text_transform:uppercase;
+    $footer_time_shedule_font_family:'Open Sans', sans-serif;
+    $footer_time_shedule_font_size:18px;
+    $footer_time_shedule_font_lineheight:1.5;
+    $footer_time_shedule_font_weight:600;
+    $footer_time_shedule_font_color:#000;
+    $footer_time_shedule_text_transform:uppercase;
+    $footer_table_btn_font_family:'Open Sans', sans-serif;
+    $footer_table_btn_font_size:22px;
+    $footer_table_btn_font_color:#ffff;
+    $footer_table_btn_background:#d2a270;
+    $footer_table_btn_border:#d2a270;
+    $footer_table_btn_font_weight:400;
+   $footer_table_btn_text_transform:uppercase;
+    $footer_botom_titel_h2_font_family:'Playfair Display', serif;
+    $footer_botom_titel_h2_font_size:44px;
+    $footer_botom_titel_h2_font_lineheight:1.5;
+    $footer_botom_titel_h2_font_weight:700;
+    $footer_botom_titel_h2_font_color:#191919;
+    $footer_botom_titel_h2_font_after:#7F2E2D;
+    $footer_botom_titel_h2_transform:capitalize;
+    $footer_botom_p_font_family:'Playfair Display', serif;
+    $footer_botom_p_font_size:18px;
+    $footer_botom_p_font_lineheight:1.5;
+    $footer_botom_p_font_weight:700;
+    $footer_botom_p_font_color:#000;
+    $footer_botom_p_transform:uppercase;
+    $footer_botom_a_font_family:'Playfair Display', serif;
+    $footer_botom_a_font_size:16px;
+    $footer_botom_a_font_lineheight:1.5;
+    $footer_botom_a_font_weight:400;
+    $footer_botom_a_font_color:#191919;
+    $footer_botom_a_border_botom_bg:#191919;
+    $footer_botom_btn_font_family:'Open Sans', sans-serif;
+    $footer_botom_btn_font_size:22px;
+    $footer_botom_btn_font_color:#191919;
+    $footer_botom_btn_background:transparent;
+    $footer_botom_btn_border:#d2a270;
+    $footer_botom_btn_font_weight:400;
+   $footer_botom_btn_text_transform:capitalize;
+
+
+   $inner_banner_text_font_family:'Playfair Display', serif;
+   $inner_banner_text_font_size:46px;
+   $photo_inner_banner_text_font_size:54px;
+   $res_inner_banner_text_font_size:78px;
+   $story_inner_banner_text_font_size:70px;
+   $photo_inner_banner_text_sub_font_size:70px;
+   $inner_banner_text_lineheight:1.6;
+   $inner_banner_text_font_weight:400;
+   $inner_banner_border_bg:#fff;
+   $inner_banner_text_color:#fff;
+
+   $not_found_p_font_family:'Playfair Display', serif;
+    $not_found_p__font_size:20px;
+   $not_found_p_lineheight:1.6;
+   $not_found_p_font_weight:400;
+   $not_found_p_color:#141c2d;
+   $not_found_page_text_bg:#fff;
+   
+    $ph_bg1:#fff;
+    $ph_bg2:#fff;
+   $photo_gallery_h2_font_family:'Playfair Display', serif;
+   $photo_gallery_h2_font_size:70px;
+   $photo_gallery_h2_font_lineheight:1.6;
+   $photo_gallery_h2_font_weight:400;
+   $photo_gallery_h2_font_color:#000;
+   $photo_gallery_h2_text_transform:uppercase;
+    $photo_se_gallery_h2_font_family:'Playfair Display', serif;
+   $photo_se_gallery_h2_font_size:50px;
+   $photo_se_gallery_h2_font_lineheight:1.6;
+   $photo_se_gallery_h2_font_weight:400;
+   $photo_se_gallery_h2_font_color:#000;
+   $photo_gallery_p_font_family:'Playfair Display', serif;
+   $photo_gallery_p_font_size:18px;
+   $photo_gallery_p_font_lineheight:1.6;
+   $photo_gallery_p_font_weight:600;
+   $photo_gallery_p_font_color:#fff;
+
+   $menu_bg:#fff;
+    $menu_h2_font_family:'Playfair Display', serif;
+   $menu_h2_font_size:70px;
+   $menu_h2_font_lineheight:1.6;
+   $menu_h2_font_weight:600;
+   $menu_h2_font_color:#191919;
+   $menu_h2_text_transform:uppercase;
+    $menu_p_font_family:'Playfair Display', serif;
+   $menu_p_font_size:18px;
+   $menu_p_font_lineheight:1.6;
+   $menu_p_font_weight:400;
+   $menu_p_font_color:#191919;
+   $menu_p_text_transform:uppercase;
+    $menu_span_font_family:'Open Sans', sans-serif;
+   $menu_span_font_size:21px;
+   $menu_span_font_lineheight:1.6;
+   $menu_span_font_weight:700;
+   $menu_span_font_color:#191919;
+   $menu_span_font_style:italic;
+   $menu_m_box_h3_font_family:'Playfair Display', serif;
+   $menu_m_box_h3_font_size:24px;
+   $menu_m_box_h3_font_lineheight:1.6;
+   $menu_m_box_h3_font_weight:400;
+   $menu_m_box_h3_font_color:#7F2E2D;
+   $menu_m_box_h3_text_transform:uppercase;
+   $menu_m_box_p_font_family:'Playfair Display', serif;
+   $menu_m_box_p_font_size:14px;
+   $menu_m_box_p_font_lineheight:1.6;
+   $menu_m_box_p_font_weight:400;
+   $menu_m_box_p_font_color:#141c2d;
+   $menu_m_box_p_text_transform:uppercase;
+    $menu_m_box_price_font_family:'Playfair Display', serif;
+   $menu_m_box_price_font_size:18px;
+   $menu_m_box_price_font_lineheight:1.6;
+   $menu_m_box_price_font_weight:700;
+   $menu_m_box_price_font_color:#141c2d;
+   $menu_extra_btn_font_family:'Open Sans', sans-serif;
+   $menu_extra_btn_font_size:22px;
+   $menu_extra_btn_font_color:#ffff;
+    $menu_extra_btn_background:#d2a270;
+    $menu_extra_btn_hover_background:#CA9258;
+    $menu_extra_btn_border:#d2a270;
+    $menu_extra_btn_font_weight:400;
+   $menu_extra_btn_text_transform:capitalize;
+   $menu_extra_btn_icon_size:20px;
+   $menu_extra_btn_icon_color:#fff;
+
+   $bask_inner_banner_text_font_family:'Playfair Display', serif;
+   $bask_inner_banner_text_font_size:56px;
+   $bask_inner_banner_text_lineheight:1.6;
+   $bask_inner_banner_text_color:rgba(242,244,254,.9);
+   $bask_inner_banner_text_font_weight:500;
+   $bask_inner_span_banner_text_font_size:16px;
+   $bask_inner_span_color:hsla(0,0%,100%,.5);
+
+   $bask_date_font_family:'Playfair Display', serif;
+   $bask_date_font_size:18px;
+   $bask_date_f_weight:400;
+   $bask_d_f_stl:italic;
+   $bask_d_f_linhit:1.5;
+   $bask_d_f_color:#141c2d;
+
+   $bask_main_p_f_family:'Playfair Display', serif;
+   $bask_main_p_f_size:18px;
+   $bask_main_p_f_weight:400;
+   $bask_main_p_f_linhit:1.6;
+   $bask_main_p_f_color:#141c2d;
+
+    $bask_main_h5_f_family:'Open Sans', sans-serif;
+   $bask_main_h5_f_size:24px;
+   $bask_main_h5_f_weight:600;
+   $bask_main_h5_f_linhit:1.6;
+   $bask_main_h5_f_color:#2e4371;
+
+    $bask_blq_p_f_family:'Playfair Display', serif;
+   $bask_blq_p_f_size:18px;
+   $bask_blq_p_f_weight:400;
+   $bask_blq_p_f_linhit:1.6;
+   $bask_blq_p_f_color:#141c2d;
+   $bask_blq_p_f_style:italic;
+
+   $bask_f_pils_bg:#1877f2;
+   $bask_tw_pils_bg:#1d9bf0;
+   $bask_pils_f_family:'Playfair Display', serif;
+   $bask_pils_f_size:14px;
+   $bask_pils_f_weight:400;
+   $bask_pils_f_linhit:1.6;
+   $bask_pils_f_color:#fff;
+
+   $bask_comn_p_f_family:'Playfair Display', serif;
+    $bask_comn_p_size:14px;
+   $bask_comn_p_weight:400;
+   $bask_comn_p_linhit:1.6;
+   $bask_comn_p_color:#000;
+      $bask_comn_span_f_family:'Playfair Display', serif;
+    $bask_comn_span_size:14px;
+   $bask_comn_span_weight:400;
+   $bask_comn_span_linhit:1.6;
+   $bask_comn_span_color:#191919;
+
+   $news_a_f_family:'Playfair Display', serif;
+   $news_a_f_size:30px;
+   $news_a_f_weight:400;
+   $news_a_f_linheit:1.5;
+   $news_a_f_color:#2e4371;
+
+   $news_span_f_family:'Playfair Display', serif;
+   $news_span_f_size:16px;
+   $news_span_f_weight:400;
+   $news_span_f_linheit:1.5;
+   $news_span_f_color:#c3c3c3;
+   $news_span_f_styl:italic;
+
+   $news_p_f_family:'Playfair Display', serif;
+   $news_p_f_size:18px;
+   $news_p_f_weight:400;
+   $news_p_f_linheit:1.5;
+   $news_p_f_color:#141c2d;
+
+   $news_pn_f_family:'Playfair Display', serif;
+   $news_pn_f_size:14px;
+   $news_pn_f_weight:700;
+   $news_pn_f_linheit:1.5;
+   $news_pn_f_color:#141c2d;
+
+   $serv_top_bg:#F9EAE3;
+   $serv_h1_f_family:'Playfair Display', serif;
+   $serv_h1_f_size:42px;
+   $serv_h1_f_weight:700;
+   $serv_h1_linhit:1.6;
+   $serv_h1_color:#191919;
+   $serv_h1_span_color:#7D2F2F;
+
+     $serv_p_f_family:'Playfair Display', serif;
+   $serv_p_f_size:18px;
+   $serv_p_f_weight:400;
+   $serv_p_linhit:1.6;
+   $serv_p_color:#141c2df2;
+   $serv_t13_f_weight:700;
+
+   $serv_mid_h3_f_family:'Playfair Display', serif;
+   $serv_mid_h3_f_size:36px;
+   $serv_mid_h3_f_weight:700;
+   $serv_mid_h3_linhit:1.6;
+   $serv_mid_h3_color:#191919;
+   $serv_mid_p_f_family:'Playfair Display', serif;
+   $serv_mid_p_f_size:16px;
+   $serv_mid_p_f_weight:400;
+   $serv_mid_p_linhit:1.6;
+   $serv_mid_p_color:#141c2df2;
+
+   $serv_mid_h4_f_family:'Playfair Display', serif;
+   $serv_mid_h4_f_size:22px;
+   $serv_mid_h4_f_weight:700;
+   $serv_mid_h4_linhit:1.6;
+   $serv_mid_h4_color:#191919;
+
+    $serv_mid_btn_font_family:'Open Sans', sans-serif;
+    $serv_mid_btn_font_size:22px;
+    $serv_mid_btn_font_color:#191919;
+    $serv_mid_btn_background:transparent;
+    $serv_mid_btn_border:#d2a270;
+    $serv_mid_btn_font_weight:400;
+   $serv_mid_btn_text_transform:uppercase;
+   $serv_mid_btn_hv_border_bg:#141c2d;
+
+   $res_bg:#fff;
+   $res_top_h2_f_family:'Playfair Display', serif;
+   $res_top_h2_f_size:70px;
+   $res_top_h2_f_weight:400;
+   $res_top_h2_linhit:1.6;
+   $res_top_h2_color:#000;
+    $res_top_p_f_family:'Playfair Display', serif;
+   $res_top_p_f_size:30px;
+   $res_top_p_f_weight:700;
+   $res_top_p_linhit:1.6;
+   $res_top_p_color:#141c2d;
+   $res_border_bg:#c3c3c3;
+
+       $res_sec_2_h2_f_family:'Playfair Display', serif;
+   $res_sec_2_h2_f_size:56px;
+   $res_sec_2_f_h2_weight:400;
+   $res_sec_2_h2_linhit:1.6;
+   $res_sec_2_h2_color:#000;
+       $res_sec_2_p_f_family:'Playfair Display', serif;
+   $res_sec_2_p_f_size:32px;
+   $res_sec_2_p_f_weight:400;
+   $res_sec_2_p_linhit:1.6;
+   $res_sec_2_p_color:#000;
+       $res_sec_2_tp_f_family:'Playfair Display', serif;
+   $res_sec_2_tp_f_size:16px;
+   $res_sec_2_tp_f_weight:700;
+   $res_sec_2_tp_linhit:1.6;
+   $res_sec_2_tp_color:#000;
+          $res_sec_2_btm_f_family:'Playfair Display', serif;
+   $res_sec_2_btm_f_size:22px;
+   $res_sec_2_btm_f_weight:700;
+   $res_sec_2_btm_linhit:1.6;
+   $res_sec_2_btm_color:#000;
+   $res_sec_2_btm_f_styl:italic;
+      $res_sec_3_h2_f_family:'Playfair Display', serif;
+   $res_sec_3_h2_f_size:52px;
+   $res_sec_3_f_h2_weight:400;
+   $res_sec_3_h2_linhit:1.6;
+   $res_sec_3_h2_color:#394D76;
+
+         $res_sec_3_h6_f_family:'Playfair Display', serif;
+   $res_sec_3_h6_f_size:26px;
+   $res_sec_3_h6_f_weight:700;
+   $res_sec_3_h6_linhit:1.6;
+   $res_sec_3_h6_color:#000;
+   $res_sec_3_h6_text_transform:uppercase;
+
+         $res_sec_3_p_f_family:'Playfair Display', serif;
+   $res_sec_3_p_f_size:18px;
+   $res_sec_3_p_f_weight:700;
+   $res_sec_3_p_linhit:1.6;
+   $res_sec_3_p_color:#000;
+
+            $res_sec_3_span_f_family:'Playfair Display', serif;
+   $res_sec_3_span_f_size:24px;
+   $res_sec_3_span_f_weight:700;
+   $res_sec_3_span_linhit:1.6;
+   $res_sec_3_span_color:#000;
+   $res_sec_3_span_text_transform:uppercase;
+   $res_sec_3_border_bg:#4f4d4dab;
+
+      $res_sec_4_h2_f_family:'Playfair Display', serif;
+   $res_sec_4_h2_f_size:70px;
+   $res_sec_4_f_h2_weight:400;
+   $res_sec_4_h2_linhit:1.6;
+   $res_sec_4_h2_color:#000;
+   $res_sec_4_border_bg:#808080;
+         $res_sec_4_p_f_family:'Playfair Display', serif;
+   $res_sec_4_p_f_size:18px;
+   $res_sec_4_p_f_weight:400;
+   $res_sec_4_p_linhit:1.6;
+   $res_sec_4_p_color:#141c2d;
+
+        $res_sec_5_h2_f_family:'Playfair Display', serif;
+   $res_sec_5_h2_f_size:70px;
+   $res_sec_5_f_h2_weight:400;
+   $res_sec_5_h2_linhit:1.6;
+   $res_sec_5_h2_color:#000;
+         $res_sec_5_p_f_family:'Playfair Display', serif;
+   $res_sec_5_p_f_size:22px;
+   $res_sec_5_p_f_weight:700;
+   $res_sec_5_p_linhit:1.6;
+   $res_sec_5_p_color:#000;
+
+        $res_sec_6_h2_f_family:'Playfair Display', serif;
+   $res_sec_6_h2_f_size:70px;
+   $res_sec_6_f_h2_weight:400;
+   $res_sec_6_h2_linhit:1.6;
+   $res_sec_6_h2_color:#354973;
+         $res_sec_6_p_f_family:'Playfair Display', serif;
+   $res_sec_6_p_f_size:26px;
+   $res_sec_6_p_f_weight:700;
+   $res_sec_6_p_linhit:1.6;
+   $res_sec_6_p_color:#000;
+
+   $sty_bg:#F9EAE3;
+        $sty_h2_f_family:'Playfair Display', serif;
+   $sty_h2_f_size:32px;
+   $sty_h2_weight:400;
+   $sty_h2_linhit:1.6;
+   $sty_h2_color:#191919;
+         $sty_p_f_family:'Playfair Display', serif;
+   $sty_p_f_size:16px;
+   $sty_p_weight:400;
+   $sty_p_linhit:1.7;
+   $sty_p_color:#000;
+
+          $sty_img_btm_text_family:'Playfair Display', serif;
+   $sty_img_btm_text_size:26px;
+   $sty_img_btm_text_weight:400;
+   $sty_img_btm_text_linhit:1.6;
+   $sty_img_btm_text_color:#000;
+
+
+       $sty_farm_btn_font_family:'Open Sans', sans-serif;
+    $sty_farm_font_size:22px;
+    $sty_farm_font_color:#191919;
+    $sty_farm_btn_background:transparent;
+    $sty_farm_btn_border:#d2a270;
+    $sty_farm_btn_font_weight:400;
+   $sty_farm_btn_text_transform:uppercase;
+   $sty_farm_btn_hv_border_bg:#141c2d;
+
+         $sty_h2_f_family:'Playfair Display', serif;
+   $sty_h2_f_size:32px;
+   $sty_h2_weight:400;
+   $sty_h2_linhit:1.6;
+   $sty_h2_color:#191919;
+            $sty_sp_f_family:'Playfair Display', serif;
+   $sty_sp_f_size:22px;
+   $sty_sp_weight:400;
+   $sty_sp_linhit:1.7;
+   $sty_sp_color:#141c2d;
+
+         $sty_qp_f_family:'Playfair Display', serif;
+   $sty_qp_f_size:16px;
+   $sty_qp_weight:400;
+   $sty_qp_linhit:1.7;
+   $sty_qp_color:#4d4d4d;
+
+   $con_s1_h2_f_family:'Playfair Display', serif;
+   $con_s1_h2_f_size:38px;
+   $con_s1_h2_weight:400;
+   $con_s1_h2_linhit:1.6;
+   $con_s1_h2_color:#191919;
+
+   $con_s1_s11_f_family:'Playfair Display', serif;
+   $con_s1_s11_f_size:24px;
+   $con_s1_s11_weight:700;
+   $con_s1_s11_linhit:1.6;
+   $con_s1_s11_color:#141c2d;
+
+      $con_s1_s12_f_family:'Playfair Display', serif;
+   $con_s1_s12_f_size:20px;
+   $con_s1_s12_weight:700;
+   $con_s1_s12_linhit:1.6;
+   $con_s1_s12_color:#141c2d;
+
+      $con_s1_label_f_family:'Playfair Display', serif;
+   $con_s1_s11_label_f_size:16px;
+   $con_s1_s11_label_weight:700;
+   $con_s1_s11_label_linhit:1.6;
+   $con_s1_s11_label_color:#141c2d;
+   $con_condition_font_weight:400;
+
+    $con_form_btn_font_family:'Open Sans', sans-serif;
+    $con_form_font_size:16px;
+    $con_form_font_color:#fff;
+    $con_form_btn_background:#CA9258;
+    $con_form_btn_font_weight:400;
+   $con_form_btn_text_transform:capitalize;
+
+      $con_s2_h3_f_family:'Playfair Display', serif;
+   $con_s2_h3_f_size:30px;
+   $con_s2_h3_weight:700;
+   $con_s2_h3_linhit:1.6;
+   $con_s2_h3_color:#2e4371;
+
+   $con_s2_h3_span_f_weight:400;
+   $con_s2_h3_span_f_size:26px;
+
+   $con_s2_t1_f_family:'Open Sans', sans-serif;
+   $con_s2_t1_f_size:18px;
+   $con_s2_t1_weight:600;
+   $con_s2_t1_linhit:1.6;
+   $con_s2_t1_color:#933e16;
+   $con_s2_t1_transform:uppercase;
+
+   $con_s2_lo_ad_f_family:'Open Sans', sans-serif;
+   $con_s2_lo_ad_f_size:18px;
+   $con_s2_lo_ad_weight:400;
+   $con_s2_lo_ad_linhit:1.6;
+   $con_s2_lo_ad_color:#000;
+
+      $con_s3_h4_f_family:'Playfair Display', serif;
+   $con_s3_h4_f_size:50px;
+   $con_s3_h4_weight:400;
+   $con_s3_h4_linhit:1.6;
+   $con_s3_h4_color:#a13a3b;
+   $con_s3_h4_style:italic;
+
+         $con_s3_sub_f_family:'Playfair Display', serif;
+   $con_s3_sub_f_size:24px;
+   $con_s3_sub_weight:400;
+   $con_s3_sub_linhit:1.6;
+   $con_s3_sub_color:#141c2d;
+
+   $con_s3_t3_f_family:'Playfair Display', serif;
+   $con_s3_t3_f_size:20px;
+   $con_s3_t3_weight:400;
+   $con_s3_t3_linhit:1.6;
+   $con_s3_t3_color:#141c2d;
+
+      $con_s3_tb_f_family:'Playfair Display', serif;
+   $con_s3_tb_f_size:18px;
+   $con_s3_tb_weight:400;
+   $con_s3_tb_linhit:1.6;
+   $con_s3_tb_color:#141c2d;
+   $con_s3_tb_style:italic;
+
+   $con_nw_form_bg:#EFF2F7;
+   $con_nw_h4_f_family:'Playfair Display', serif;
+   $con_nw_h4_f_size:32px;
+   $con_nw_h4_weight:400;
+   $con_nw_h4_linhit:1.6;
+   $con_nw_h4_color:#000;
+   $con_nw_h4_style:italic;
+
+      $con_nw_t5_f_family:'Playfair Display', serif;
+   $con_nw_t5_f_size:22px;
+   $con_nw_t5_weight:400;
+   $con_nw_t5_linhit:1.6;
+   $con_nw_t5_color:#000;
+
+         $con_nw_t6_f_family:'Open Sans', sans-serif;
+   $con_nw_t6_f_size:26px;
+   $con_nw_t6_weight:400;
+   $con_nw_t6_linhit:1.6;
+   $con_nw_t6_color:#000;
+
+
+      $con_nw_t7_f_family:'Open Sans', sans-serif;
+   $con_nw_t7_f_size:16px;
+   $con_nw_t7_weight:700;
+   $con_nw_t7_linhit:1.6;
+   $con_nw_t7_color:#3c4858;
+
+         $con_nw_t8_f_family:'Open Sans', sans-serif;
+   $con_nw_t8_f_size:12px;
+   $con_nw_t8_weight:400;
+   $con_nw_t8_linhit:1.6;
+   $con_nw_t8_color:#8390a4;
+
+        $con_nw_cdt_f_family:'Open Sans', sans-serif;
+   $con_nw_cdt_f_size:14px;
+   $con_nw_cdt_weight:400;
+   $con_nw_cdt_linhit:1.6;
+   $con_nw_cdt_color:#3c4858;
+
+          $con_nw_cdta_f_family:'Open Sans', sans-serif;
+   $con_nw_cdta_f_size:14px;
+   $con_nw_cdta_color:#2bb2fc;
+   $con_nw_cdta_weight:400;
+   $con_nw_cdta_linhit:1.6;
+
+       $con_nw_btn_font_family:'Open Sans', sans-serif;
+    $con_nw_btn_font_size:16px;
+    $con_nw_btn_font_color:#fff;
+    $con_nw_btn_background:#262e3a;
+    $con_nw_btn_font_weight:400;
+   $con_nw_btn_text_transform:uppercase;
+             $con_gft_f_family:'Playfair Display', serif;
+   $con_gft_h2_f_size:106px;
+   $con_gft_h2_weight:400;
+   $con_gft_h2_linhit:1.6;
+   $con_gft_h2_color:#7f2e2d;
+
+      $con_gft_t9_f_family:'Playfair Display', serif;
+   $con_gift_t9_f_size:24px;
+   $con_gift_t9_weight:400;
+   $con_gift_t9_linhit:1.6;
+   $con_gift_t9_color:rgba(20,28,45,.95);
+    $con_gft_t11_f_family:'Playfair Display', serif;
+   $con_gift_t11_f_size:35px;
+   $con_gift_t11_weight:700;
+   $con_gift_t11_linhit:1.6;
+   $con_gift_t11_color:#a13a3b;
+
+       $con_gft_p_f_family:'Playfair Display', serif;
+   $con_gift_p_f_size:18px;
+   $con_gift_p_weight:400;
+   $con_gift_p_linhit:1.6;
+   $con_gift_p_color:rgba(20,28,45,.95);
+
+   $con_form_label_color:#141c2d;
+   $con_form_label_size:18px;
+   $con_form_label_wet:600;
+   $con_form_label_wet2:400;
+   $con_form_label_size2:16px;
+   $con_form_label_t_transform:capitalize;
+   $con_form_input_border:#c3c3c3;
+   $con_form_input_focus_border:#000;
+   $con_black:#000;
+   $label_link:#CA9258;

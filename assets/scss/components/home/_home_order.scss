@@ -1,0 +1,274 @@
+.home_order_area{
+    .container{
+        background: $home_order_bg;
+        padding: 80px 80px;
+         box-shadow: rgba(255, 255, 255, 0.59) 0px 20px 30px;
+        position: relative;
+        top: -128px;
+        z-index: 5;
+    }
+    .order_top_content{
+        .order_titel{
+            margin-bottom: 80px;
+            h2{
+                font-family: $home_order_titel_h2_font_family;
+                font-weight: $home_order_titel_h2_font_weight;
+                font-size: $home_order_titel_h2_font_size;
+                color: $home_order_titel_h2_color;
+                line-height: $home_order_titel_h2_lineheight;
+                span{
+                    font-style:$home_order_titel_span_font_style;
+                }
+            }
+        }
+        .order_sub_titel{
+            .sub_text_1{
+                font-family: $home_order_sub_text_1_font_family;
+                font-weight: $home_order_sub_text_1_font_weight;
+                font-size: $home_order_sub_text_1_font_size;
+                color: $home_order_sub_text_1_color;
+                line-height: $home_order_sub_text_1_lineheight;
+                position: relative;
+                margin-bottom: 38px;
+                &::after{
+                    position: absolute;
+                    bottom: -12px;
+                    left: 0%;
+                    right: 0%;
+                    content: '';
+                    width: 7%;
+                    height: 1px;
+                    margin: 0 auto;
+                    background: $home_order_sub_text_1_after_bg;
+                }
+            }
+            .sub_text_2{
+                font-family: $home_order_sub_text_2_font_family;
+                font-weight: $home_order_sub_text_2_font_weight;
+                font-size: $home_order_sub_text_2_font_size;
+                color: $home_order_sub_text_2_color;
+                line-height: $home_order_sub_text_2_lineheight;
+                margin-bottom: 60px;
+            }
+        }
+    }
+    .order_reserve{
+        border-top: 1px solid $home_order_reserve_titel_top_border_bg;
+        .reserve_titel{
+            padding-top: 60px;
+            margin-bottom: 30px;
+            h3{
+                font-family:$home_order_reserve_titel_font_family;
+                font-weight: $home_order_reserve_titel_font_weight;
+                font-size: $home_order_reserve_titel_font_size;
+                color: $home_order_reserve_titel_color;
+                line-height: $home_order_reserve_titel_lineheight;
+                text-transform: $home_order_reserve_titel_text_transform;
+            }
+        }
+        .reserve_box{
+            .reserve_img{
+                border-radius: 50%;
+                -webkit-border-radius: 50%;
+                -moz-border-radius: 50%;
+                -ms-border-radius: 50%;
+                -o-border-radius: 50%;
+                height: 170px;
+                width: 170px;
+                overflow: hidden;
+                margin: 0 auto;
+                margin-bottom: 25px;
+                img{
+                    transform:scale(1);
+                    -webkit-transform:scale(1);
+                    -moz-transform:scale(1);
+                    -ms-transform:scale(1);
+                    -o-transform:scale(1);
+                    transition: all .3s ease-in-out;
+                }
+                &:hover{
+                    img{
+                    transform:scale(1.2);
+                    -webkit-transform:scale(1.2);
+                    -moz-transform:scale(1.2);
+                    -ms-transform:scale(1.2);
+                    -o-transform:scale(1.2);
+                    }
+
+                }
+            }
+            .re_box_titel{
+                h4{
+                font-family:$home_order_re_box_titel_font_family;
+                font-weight: $home_order_re_box_titel_font_weight;
+                font-size: $home_order_re_box_titel_font_size;
+                line-height: $home_order_re_box_titel_lineheight;
+                text-transform: $home_order_re_box_titel_text_transform;
+                }
+                .copia{
+                    color: $home_re_box_titel_copia;
+                }
+                .tel_phn{
+                    color: $home_re_box_titel_tel_phn;
+                }
+                .deli_ver{
+                    color: $home_re_box_titel_deli_ver;
+                }
+            }
+        }
+        .order_btn_box{
+            text-align: center;
+            margin-top: 60px;
+            .order_btn{
+                background: $home_order_btn_background;
+                font-family: $home_order_btn_font_family;
+                font-size: $home_order_btn_font_size;
+                color: $home_order_btn_font_color;
+                padding: 10px 30px;
+                text-transform: $home_order_btn_text_transform;
+                border: 1px solid $home_order_btn_border;
+            }
+        }
+        .more_order_btn{
+            margin-top: 70px;
+            margin-bottom: 50px;
+            .more_btn_box{
+                .more_or_btn{
+                    background: $home_more_or_btn_background;
+                    font-family: $home_more_or_btn_font_family;
+                    font-size: $home_more_or_btn_font_size;
+                    color: $home_more_or_btn_font_color;
+                    border: 1px solid $home_more_or_btn_border;
+                    padding: 10px 30px;
+                    text-transform: $home_more_or_btn_text_transform;
+                }
+            }
+        }
+        .menu_img_box{
+            .menu_img{
+                overflow: hidden;
+                img{
+                    height: 310px;
+                    width: 100%;
+                    transform:scale(1);
+                    -webkit-transform:scale(1);
+                    -moz-transform:scale(1);
+                    -ms-transform:scale(1);
+                    -o-transform:scale(1);
+                    transition: all .3s ease-in-out;
+                }
+                &:hover{
+                    img{
+                    transform:scale(1.2);
+                    -webkit-transform:scale(1.2);
+                    -moz-transform:scale(1.2);
+                    -ms-transform:scale(1.2);
+                    -o-transform:scale(1.2);
+                    }
+
+                }
+            }
+        }
+    }
+}
+@media (min-width:320px)and (max-width:575px){
+    .home_order_area{
+        .container{
+            padding: 80px 20px;
+        }
+        .order_top_content{
+            .order_titel{
+                margin-bottom: 40px;
+                h2{
+                    font-size:35px;
+                }
+            }
+            .order_sub_titel{
+                .sub_text_1{
+                    font-size:24px;
+                    &::after{
+                        width: 40%;
+                    }
+                }
+                .sub_text_2{
+                    font-size:18px;
+                }
+            }
+        }
+        .order_reserve{
+            border-top: 1px solid $home_order_reserve_titel_top_border_bg;
+            .reserve_titel{
+                padding-top: 60px;
+                margin-bottom: 30px;
+                h3{
+                    font-size:26px;
+                }
+            }
+            .more_order_btn{
+                .more_btn_box{
+                    margin-bottom: 40px;
+                }
+            }
+                    .menu_img_box{
+            .menu_img{
+                overflow: hidden;
+                margin-bottom: 40px;
+            }
+        }
+        }
+    }
+}
+@media (min-width:576px)and (max-width:767px){
+    .home_order_area{
+        .container{
+            padding: 80px 20px;
+        }
+        .order_top_content{
+            .order_titel{
+                margin-bottom: 40px;
+                h2{
+                    font-size:35px;
+                }
+            }
+            .order_sub_titel{
+                .sub_text_1{
+                    font-size:24px;
+                    &::after{
+                        width: 40%;
+                    }
+                }
+                .sub_text_2{
+                    font-size:18px;
+                }
+            }
+        }
+        .order_reserve{
+            border-top: 1px solid $home_order_reserve_titel_top_border_bg;
+            .reserve_titel{
+                padding-top: 60px;
+                margin-bottom: 30px;
+                h3{
+                    font-size:26px;
+                }
+            }
+            .more_order_btn{
+                .more_btn_box{
+                    margin-bottom: 40px;
+                }
+            }
+                    .menu_img_box{
+            .menu_img{
+                overflow: hidden;
+                margin-bottom: 40px;
+            }
+        }
+        }
+    }
+}
+@media (min-width:768px)and (max-width:991px){
+    .home_order_area{
+        .container{
+            padding: 80px 20px;
+        }
+    }
+}

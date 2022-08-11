@@ -1,0 +1,80 @@
+@import './default.scss';
+*{
+    margin: 0;
+    padding:0;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+html,
+body{
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    font-weight: 400;
+    background: $body_comn_bg;
+}
+img{
+    max-width: 100%;
+}
+a{
+	text-decoration: none;
+}
+ul{
+    margin: 0;
+    padding: 0;
+
+    li{
+        list-style-type: none;
+        display: inline-block;
+
+        a{
+            text-decoration: none;
+
+            &:hover{
+                text-decoration: none;
+            }
+        }
+    }
+}
+.btn.focus,
+.btn:focus {
+outline:none;
+-webkit-box-shadow:0 0 0 .2rem rgba(0, 123, 255, 0);
+       box-shadow:0 0 0 .2rem rgba(0, 123, 255, 0);
+}
+button:focus {
+outline:none;
+}
+
+.form-control:focus {
+outline:0;
+-webkit-box-shadow:none;
+        box-shadow:none;
+}
+
+@import "./components/header";
+@import "./components/home/home_hero";
+@import "./components/home/home_order";
+@import "./components/home/home_oerp";
+@import "./components/footer";
+@import "./components/not_found/inner_banner";
+@import "./components/not_found/nf";
+@import "./components/photography/phinner_banner";
+@import "./components/photography/photo";
+@import "./components/menu/muinner";
+@import "./components/menu/menu";
+@import "./components/bask/bask_con";
+@import "./components/bask/baskinner";
+ @import "./components/news/newinner";
+ @import "./components/news/news";
+@import "./components/sevice/serviceinner";
+@import "./components/sevice/servicon";
+@import "./components/restaturant/resinner";
+@import "./components/restaturant/rescon";
+@import "./components/stry/styinner";
+@import "./components/stry/stycon";
+@import "./components/contct/coninner";
+@import "./components/contct/con";
+

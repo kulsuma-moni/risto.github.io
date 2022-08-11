@@ -1,0 +1,273 @@
+.service_top_area{
+    .container{
+            padding: 80px 120px;
+           position: relative;
+           top: -128px;
+           z-index: 5;
+           background: $serv_top_bg;
+        .service_top_text{
+            h1{
+                 font-family:$serv_h1_f_family;
+                 font-size:$serv_h1_f_size;
+                 font-weight:$serv_h1_f_weight;
+                 line-height:$serv_h1_linhit;
+                 color:$serv_h1_color;
+                 margin-bottom: 30px;
+                position: relative;
+                span{
+                    color: $serv_h1_span_color;
+                }
+                &::after{
+                    position: absolute;
+                    bottom: -12px;
+                    left: 0%;
+                    right: 0%;
+                    content: '';
+                    width: 15%;
+                    height: 1px;
+                    margin: 0 auto;
+                    background: $home_order_sub_text_1_after_bg;
+                }
+            }
+            p{
+                 font-family:$serv_p_f_family;
+                 font-size:$serv_p_f_size;
+                 font-weight:$serv_p_f_weight;
+                 line-height:$serv_p_linhit;
+                 color:$serv_p_color;
+                 margin-bottom: 30px;
+            }
+            .t_1{
+                font-weight: $serv_t13_f_weight;
+            }
+            .t_3{
+                font-weight: $serv_t13_f_weight;
+            }
+        }
+    }
+}
+.service_mid_con{
+    .container{
+        padding: 80px 60px;
+        background: $serv_top_bg;
+        .service_text{
+            padding: 0 50px 0 20px;
+            .titel{
+                margin-bottom: 40px;
+                h3{
+                    font-family:$serv_mid_h3_f_family;
+                    font-size:$serv_mid_h3_f_size;
+                    font-weight:$serv_mid_h3_f_weight;
+                    line-height:$serv_mid_h3_linhit;
+                    color:$serv_mid_h3_color;
+                    position: relative;
+                    margin-bottom: 30px;
+                    &::after{
+                    position: absolute;
+                    bottom: -12px;
+                    left: 0%;
+                    right: 0%;
+                    content: '';
+                    width: 15%;
+                    height: 1px;
+                    margin: 0 auto;
+                    background: $home_order_sub_text_1_after_bg;
+                }
+                }
+            }
+            .de_tal{
+               p{
+                    font-family:$serv_mid_p_f_family;
+                    font-size:$serv_mid_p_f_size;
+                    font-weight:$serv_mid_p_f_weight;
+                    line-height:$serv_mid_p_linhit;
+                    color:$serv_mid_p_color;
+               }
+                h4{
+                    font-family:$serv_mid_h4_f_family;
+                    font-size:$serv_mid_h4_f_size;
+                    font-weight:$serv_mid_h4_f_weight;
+                    line-height:$serv_mid_h4_linhit;
+                    color:$serv_mid_h4_color;
+                }
+            }
+            .ser_btn{
+                margin-top: 50px;
+                margin-bottom: 40px;
+                .btn{
+                        background: $serv_mid_btn_background;
+                        font-family: $serv_mid_btn_font_family;
+                        font-size: $serv_mid_btn_font_size;
+                        color: $serv_mid_btn_font_color;
+                        padding: 10px 40px;
+                        text-transform: $serv_mid_btn_text_transform;
+                        border: 1px solid $serv_mid_btn_border;
+                        font-weight: $serv_mid_btn_font_weight;
+                        &:hover{
+                            border:1px solid $serv_mid_btn_hv_border_bg;
+                            background: $serv_mid_btn_background;
+                        }
+                }
+            }
+            .brand{
+                .brand_img{
+                    overflow: hidden;
+                    position: relative;
+                img{
+                    width: 100%;
+                    transform:scale(1);
+                    -webkit-transform:scale(1);
+                    -moz-transform:scale(1);
+                    transition: all .3s ease-in-out;
+                }
+                &:hover{
+                    img{
+                    transform:scale(1.2);
+                    -webkit-transform:scale(1.2);
+                    -moz-transform:scale(1.2);
+                    -ms-transform:scale(1.2);
+                    -o-transform:scale(1.2);
+                    }
+
+                }
+                }
+            }
+        }
+        .service_img{
+            img{
+                height: 500px;
+            }
+        }
+        .serv_divider{
+            background: #c3c3c3;
+            height: 1px;
+            width: 100%;
+            margin: 80px 0;
+        }
+    }
+}
+
+@media (min-width:320px)and (max-width:575px){
+    .service_top_area{
+        .container{
+                padding: 80px 20px;
+            .service_top_text{
+                h1{
+                    font-size:30px;
+                }
+                p{
+                    font-size:16px;
+                }
+            }
+        }
+    }
+    .service_mid_con{
+        .container{
+            padding: 80px 20px;
+            .service_text{
+                padding: 0 20px 0 20px;
+                .titel{
+                    h3{
+                        font-size:30px;
+                    }
+                }
+                .de_tal{
+                p{
+                        font-size:16px;
+                }
+                    h4{
+                        font-size:20px;
+                    }
+                }
+                .ser_btn{
+                    margin-top: 50px;
+                    margin-bottom: 40px;
+                    .btn{
+                            padding: 10px 30px;
+                            text-transform:capitalize;
+                            font-size: 20px;
+                    }
+                }
+            }
+            .service_img{
+                margin-bottom: 40px;
+                img{
+                    height: auto;
+                }
+            }
+        }
+    }
+}
+@media (min-width:576px)and (max-width:767px){
+    .service_top_area{
+        .container{
+                padding: 80px 20px;
+            .service_top_text{
+                h1{
+                    font-size:30px;
+                }
+                p{
+                    font-size:16px;
+                }
+            }
+        }
+    }
+    .service_mid_con{
+        .container{
+            padding: 80px 20px;
+            .service_text{
+                padding: 0 20px 0 20px;
+                .titel{
+                    h3{
+                        font-size:30px;
+                    }
+                }
+                .de_tal{
+                p{
+                        font-size:16px;
+                }
+                    h4{
+                        font-size:20px;
+                    }
+                }
+                .ser_btn{
+                    margin-top: 50px;
+                    margin-bottom: 40px;
+                    .btn{
+                            padding: 10px 30px;
+                            text-transform:capitalize;
+                            font-size: 20px;
+                    }
+                }
+            }
+            .service_img{
+                margin-bottom: 40px;
+                img{
+                    height: auto;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width:768px)and (max-width:991px){
+    .service_top_area{
+        .container{
+            .service_top_text{
+                h1{
+                    font-size:30px;
+                }
+            }
+        }
+    }
+    .service_mid_con{
+        .container{
+            .service_img{
+                margin-bottom: 40px;
+                img{
+                    height: auto;
+                }
+            }
+        }
+    }
+}

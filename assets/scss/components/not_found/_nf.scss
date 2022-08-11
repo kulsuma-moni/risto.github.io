@@ -1,0 +1,36 @@
+.not_found_page_content{
+    text-align: center;
+    position: relative;
+    margin-top: -119px;
+    z-index: 3;
+    .page_text{
+        box-shadow:0 0 .625rem 0 rgba(0,0,0,.1) ;
+        background:$not_found_page_text_bg;
+        padding:100px 90px;
+        p{
+            font-family: $not_found_p_font_family;
+            font-size: $not_found_p__font_size;
+            line-height: $not_found_p_lineheight;
+            color: $not_found_p_color;
+            font-weight: $not_found_p_font_weight; 
+        }
+    }
+}
+
+
+@media (min-width:320px)and (max-width:575px){
+    .not_found_page_content{
+        .page_text{
+            padding:100px 20px;
+        }
+    }
+
+}
+@media (min-width:576px)and (max-width:767px){
+    .not_found_page_content{
+        .page_text{
+            padding:100px 20px;
+        }
+    }
+
+}
